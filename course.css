@@ -1,0 +1,167 @@
+
+aside, footer, header, nav, section { display:block; }
+
+body {
+    background-color: white;
+	width:1040px;
+	margin:0 auto;
+    font-size:16px;
+    font-family:'Pontano Sans', sans-serif;
+}
+
+h1, h2 {
+    font-family:'Source Sans Pro', sans-serif;
+   /* color:#cc6600; */
+    color:#990000; 
+    padding-top:0px;
+}
+
+a {
+  color: #7493a2;
+}
+
+table.schedule {
+   border-spacing: 0px;
+   border-width: 1px;
+   border-style: solid;
+   border-collapse: collapse;
+   background-color: #f3f0e9;
+}
+
+table.schedule td,th {
+   border-width: 1px;
+   padding: 10px;
+   border-style: solid;
+   border-color: #674c56;
+}
+
+table.schedule td.wnum {
+   text-align: center;
+}
+
+.email {
+    font-family: monospace;
+}
+
+
+header#masthead {
+    margin:0;
+    padding:20px 0;
+    border-bottom:1px solid;
+    font-size:20px;
+}
+
+header#masthead img {
+    vertical-align:middle;
+}
+
+footer#mastfoot {
+    width:940px;
+    overflow:auto;
+    margin:0 auto 60px auto;
+    font-size:12px;
+    border-top:1px solid;
+}
+
+footer#mastfoot img {
+    vertical-align:middle;
+}
+
+nav#global {
+    font-size:14px;
+    letter-spacing:1px;
+    list-style:none;
+    padding-top:5px;
+}
+
+nav li.selected {
+    font-weight: 900;
+}
+
+#affiliations {
+    font-weight:normal;
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+#content {
+    float:right;
+    width:790px;
+    margin:0 0 35px 0;
+    text-align:left;
+}
+
+#content section {
+    margin:0 45px 15px 0;
+    padding:0;
+}
+
+#content section:last-child {
+    margin:0 45px 0 0;
+    padding:0;
+}
+
+#content section h1 {
+    font-size:22px;
+    font-weight:normal;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+#content section h2 {
+    font-size:16px;
+    font-weight:normal;
+    margin-left:10px;
+    margin-top:0px;
+    padding-top:0px;
+}
+
+ul.week {
+   margin:0;
+}
+
+.bigidea {
+  color: #d17702;
+}
+
+ul.week li {
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding: 0;
+}
+
+li.supp a {
+   color: green;
+}
+
+#sidebar {
+    float:left;
+    width:150px;
+    text-align:left;
+    margin:0 0 15px 0;
+    font-size:14px;
+
+}
+
+#sidebar ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+#sidebar li {
+    padding:0 0 5px 0;
+}
+
+#sidebar li:last-child {
+    padding:0;
+}
+
+#content li {
+    padding-bottom:5px;
+}
+
+#awardslist li {
+    list-style:none;
+} 
